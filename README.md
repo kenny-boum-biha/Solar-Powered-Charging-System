@@ -5,7 +5,7 @@ Supervisor: Prof. Pragasen Pillay
 
 A photovoltaic charging system that charges the 48 V battery of a light electric three-wheeler with **no grid connection**, and lets the stored energy power **low-voltage emergency loads** such as phones and lighting.
 
-This repository contains the firmware for the TI C2000 F28379D, the MATLAB/Simulink and PSIM simulation models, and the PCB design files.
+This repository contains the firmware for the TI C2000 F28379D, the MATLAB/Simulink simulation models, and the PCB design files.
 
 > **Status:** Phase 1 (Selection and Planning) complete. Design is in progress. All specifications below are **preliminary** and will be finalized in Phase 2.
 
@@ -78,7 +78,6 @@ flowchart LR
 │   └── include/
 ├── simulation/
 │   ├── matlab/             # MATLAB/Simulink + Simscape Electrical models
-│   └── psim/               # PSIM schematics (dead-time and switching studies)
 ├── hardware/
 │   ├── schematics/         # Power stage, sensing, protection, emergency output
 │   ├── pcb/                # Layout and fabrication outputs
@@ -99,7 +98,6 @@ flowchart LR
 | --- | --- |
 | [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO) + C2000Ware | Firmware development and debugging |
 | MATLAB/Simulink with Simscape Electrical and Embedded Coder | System simulation and controller design |
-| PSIM | Converter and switching-level simulation |
 | TI LAUNCHXL-F28379D | Target hardware |
 
 ### Clone
