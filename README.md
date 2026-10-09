@@ -17,9 +17,6 @@ This repository contains the firmware for the TI C2000 F28379D, the MATLAB/Simul
 - [Preliminary Specifications](#preliminary-specifications)
 - [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
-- [Firmware Overview](#firmware-overview)
-- [Contribution Workflow](#contribution-workflow)
-- [Project Timeline](#project-timeline)
 - [Team](#team)
 - [References](#references)
 
