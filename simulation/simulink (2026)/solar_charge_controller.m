@@ -21,7 +21,7 @@ controlPeriod = 10e-6;            % Seconds between controller executions.
 mpptUpdateSamples = 500;          % 500 calls = 5 ms between MPPT steps. Range 200-1000.
                                   % Must be longer than the boost settling time (~2-3 ms).
 
-mpptDutyStep = 0.005;             % Duty change per MPPT step. Range 0.0025-0.01.
+mpptDutyStep = 0.0005;             % Duty change per MPPT step. Range 0.0025-0.01.
                                   % Must be >= PWM resolution (simulation step / 20 us).
 
 openCircuitSettleSamples = 500;   % 5 ms with the boost off before each start, so the
